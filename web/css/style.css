@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-size: 14px;
+}
+
+.header{
+    background-color: ghostwhite;
+    padding-top: 46px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo::after{
+    content:"";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius:50%;
+    background-color: gray;
+}
+
+/*header content*/
+
+.header-content{
+    max-width: 500px;
+}
+
+.header-heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 124px;
+}
+
+.header-content p {
+    line-height:2;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.card-img-top:hover {
+    transform: scale(1.05); /* Увеличение изображения при наведении */
+}
+
+/* Additional styles for the registration page */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Books Page Styles */
+.section-heading {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+/* Footer Styles */
+.footer {
+    background-color: black; 
+    color: white;
+    padding: 40px 0; 
+    margin-top: 50px;
+}
+
+.footer h3 {
+    font-weight: 600;
+}
+
+.footer p, 
+.footer ul,
+.footer li {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Переход */
+}
+
+.footer a:hover {
+    color: white; /* Цвет при наведении */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Эффект тени при наведении */
+}
